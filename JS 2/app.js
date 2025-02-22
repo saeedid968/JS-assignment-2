@@ -178,26 +178,25 @@ document.write("<br> You will need ", lifeTimeSupply, " Nuts to last you until t
 ///// Chapter 6-9 MATH EXPRESSIONS /////
 
 
-
 // Question No 1
 
-document.write("<br><br> Result:" );
-document.write("<br>The value is: " , 10 );
+document.write("<br><br> Result:");
+document.write("<br>The value is: ", 10);
 document.write("<br>..............................");
 
 var a = 10;
 
-document.write("<br><br>The value of ++a is: " , ++a );
-document.write("<br>Now the value of a is: " , a );
+document.write("<br><br>The value of ++a is: ", ++a);
+document.write("<br>Now the value of a is: ", a);
 
-document.write("<br><br>The value of a++ is: " , a++ );
-document.write("<br>Now the value of a is: " , a );
+document.write("<br><br>The value of a++ is: ", a++);
+document.write("<br>Now the value of a is: ", a);
 
-document.write("<br><br>The value of --a is: " , --a );
-document.write("<br>Now the value of a is: " , a );
+document.write("<br><br>The value of --a is: ", --a);
+document.write("<br>Now the value of a is: ", a);
 
-document.write("<br><br>The value of a-- is: " , a-- );
-document.write("<br>Now the value of a is: " , a );
+document.write("<br><br>The value of a-- is: ", a--);
+document.write("<br>Now the value of a is: ", a);
 
 
 // Question No 2
@@ -207,32 +206,40 @@ var x = 2;
 var y = 1;
 var result = x + y;
 
-document.write("<br><br> x is: " , 2 );
-document.write("<br> " , "y is: " , 1);
+document.write("<br><br> x is: ", 2);
+document.write("<br> ", "y is: ", 1);
 
-document.write("<br><br> --x is: " , --x );
-document.write("<br><br> --x - --y is: " , --y );
-document.write("<br><br> --x - --y + ++y is: " , ++y );
-document.write("<br><br> --x - --y + ++y + y-- is: " , y-- );
-document.write("<br><br> Result is " , result , "<br><br>");
+document.write("<br><br> --x is: ", --x);
+document.write("<br><br> --x - --y is: ", --y);
+document.write("<br><br> --x - --y + ++y is: ", ++y);
+document.write("<br><br> --x - --y + ++y + y-- is: ", y--);
+document.write("<br><br> Result is ", result, "<br><br>");
 
 
 
 // Question No 3
 
 var whatName = prompt("What is your Name?");
-document.write("Welcome " , whatName , "<br><br>");
+document.write("Welcome ", whatName, "<br><br>");
 
 
 // Question No 4/5
 
 
-var number = prompt("Enter a number" , "5");
-document.write("<h2>Multiplication Table of " , number , "</h2>");
+var number = prompt("Enter a number", "5");
+document.write("<h2>Multiplication Table of ", number, "</h2>");
 
-for (var i = 1; i <= 10; i++) {
-    document.write(number , " x " , i , " = " , (number * i) , "<br>");
-}
+document.write(number, " x 1 = ", (number * 1), "<br>")
+document.write(number, " x 2 = ", (number * 2), "<br>")
+document.write(number, " x 3 = ", (number * 3), "<br>")
+document.write(number, " x 4 = ", (number * 4), "<br>")
+document.write(number, " x 5 = ", (number * 5), "<br>")
+document.write(number, " x 6 = ", (number * 6), "<br>")
+document.write(number, " x 7 = ", (number * 7), "<br>")
+document.write(number, " x 8 = ", (number * 8), "<br>")
+document.write(number, " x 9 = ", (number * 9), "<br>")
+document.write(number, " x 10 = ", (number * 10), "<br>")
+
 
 
 
@@ -259,3 +266,187 @@ document.write(subject2 + " &nbsp;&nbsp;&nbsp;&nbsp; " + totalMarks + " &nbsp;&n
 document.write(subject3 + " &nbsp;&nbsp;&nbsp;&nbsp; " + totalMarks + " &nbsp;&nbsp;&nbsp;&nbsp; " + marks3 + " &nbsp;&nbsp;&nbsp;&nbsp; " + (marks3 / totalMarks) * 100 + "% <br><br>");
 document.write("<b>Total: </b>" + (totalMarks * 3) + " &nbsp;&nbsp;&nbsp;&nbsp; " + totalObtained + " &nbsp;&nbsp;&nbsp;&nbsp; " + percentage.toFixed(2) + "%");
 
+
+
+
+
+
+////// Home PDF //////
+////// Chapter 6 (Math Expression II) //////
+
+
+// Question No 1
+
+var x = 2, y = ++x;
+
+// Question No 2
+
+var a = 100;
+b = --a;
+
+// Question No 3
+
+var x = 50;
+var y = x++;
+// The Value of Y will be '50'
+
+
+// Question No 4
+
+var y = 50;
+var z = --y;
+// The Value of z will be '49'
+
+
+// Question No 5
+
+var num = 10;
+var newNum = num--;
+
+// Question No 6
+
+var num = 10;
+var newNum2 = num++;
+
+// Question No 7
+
+var myNum = 5;
+var myNum2 = ++myNum;
+alert(myNum2);
+
+
+
+
+
+
+
+////// Chapter 6 (Math Expression III) //////
+
+
+// Question No 1
+
+var calculatedNum = 2 + (2 * 6);
+// The Value of calculatedNum will be '14'
+
+
+// Question No 2
+
+var calculatedNum1 = (2 + 2) * 6;
+// The Value of calculatedNum1 will be '24'
+
+
+// Question No 3
+
+var calculatedNum2 = (2 + 2) * (4 + 2);
+// The Value of calculatedNum2 will be '24'
+
+
+// Question No 4
+
+var calculatedNum0 = ((2 + 2) * 4) + 2;
+// The Value of calculatedNum0 will be '18'
+
+
+// Question No 5
+
+var calculatedNum3 = (2 + 2) * (4 + 10);
+// The Value of calculatedNum3 will be '56'
+
+
+// Question No 6
+
+var calculatedNum4 = 2 + (2 * 4) + 10;
+// The Value of calculatedNum4 will be '20'
+
+
+// Question No 7 is wrong it will never become 5 anyhow //
+
+
+
+
+
+
+////// Chapter 8 (Concatenating Text Strings) //////
+
+
+// Question No 1
+
+var num = "2" + "2";
+// The Value of num will be '22'
+
+
+// Question No 2
+
+var message = "Hello " + "Dolly";
+// The Value of message will be 'Hello Dolly'
+alert(message);
+
+
+// Question No 3
+
+var num = "33" + 3;
+// The Value of num will be '333'
+
+
+// Question No 4
+
+var pak = "Pakistan " + "Zindabad";
+// The Value of pak will be 'Pakistan Zindabad'
+alert(pak);
+
+
+// Question No 5
+
+var age = "Age " + 18;
+// The Value of age will be 'Age 18'
+alert(age);
+
+
+// Question No 6
+
+var stg1 = "Hello ";
+var stg2 = "World";
+var result = stg1 + stg2;
+// The Value of result will be 'Hello World'
+alert(result);
+
+
+
+
+
+
+////// Chapter 9 (Prompts) //////
+
+
+
+// Question No 1
+
+var firstName = prompt("Enter first name");
+
+// Question No 2
+
+var country = prompt("Country", "China");
+
+// Question No 3
+
+var yourName = prompt("Enter Your Name");
+
+// Question No 4
+
+var greet = prompt("How are you?");
+
+// Question No 5
+
+var val1 = "What is your field?";
+var val2 = "JS Developer";
+var result1 = prompt(val1, val2);
+
+// Question No 6
+
+var msg = prompt("Where are you from?", "Karachi");
+alert(msg);
+
+
+
+
+////////////////// THE END //////////////////
